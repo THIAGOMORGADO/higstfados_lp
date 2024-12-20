@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div className="bg-sky-300 w-screen h-screen">
-      <header className="container mx-auto h-16 bg-sky-700 flex items-center justify-between px-28">
+      <header className="container mx-auto h-16 bg-sky-700 flex items-center justify-between px-4 sm:px-24">
         <div className="flex items-center gap-2">
           <Image src={Logo} alt="Logo Higestofados" className="w-16" />
           <h1 className="text-lg font-bold text-white">

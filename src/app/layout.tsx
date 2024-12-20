@@ -23,10 +23,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <link
+          rel="shortcut icon"
+          href="../public/favicon.png"
+          type="image/x-icon"
+        />
         {children}
       </body>
     </html>
